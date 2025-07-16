@@ -1,13 +1,18 @@
+    <!-- Declare the HTML document type and set language to English -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
+            <!-- Meta information and title -->
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>My CV (Responsive Personal Portfolio Website)</title>
+        <title>My CV</title>
+
+            <!-- Link to external CSS file and Boxicons for icons -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     </head>
     <body>
+            <!-- Website header with logo, menu icon, theme toggle, and navigation bar -->
         <header class="header">
             <a href="#home" class="logo">Shamokh <span>Alodaib</span></a>
             <i class='bx  bx-menu' id="menu-icon" ></i>
@@ -15,6 +20,7 @@
              <button id="theme-toggle" class="btn">☀️</button>
 
              <nav class="navbar">
+                        <!-- Navigation links -->
                 <a href="#home" class="active">Home</a>
                 <a href="#education">Education</a>
                 <a href="#about-me">About Me</a>
@@ -23,6 +29,7 @@
                 
             </nav>
         </header>
+            <!-- Home section -->
         <section class="home" id="home">
             <div class="home-content">
                 <h1>Hello, It`s <span>Shamokh</span></h1>
@@ -33,6 +40,8 @@
                      especially in front-end development and data structures, and I continuously seek opportunities to apply what I’ve 
                      learned to real-world challenges. I thrive in dynamic environments where I can contribute effectively while growing
                      both personally and professionally.</p>
+
+                         <!-- Social media icons -->
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/shamokh-al-odaib-327aaa268/" target="_blank"><i class='bx  bxl-linkedin'  ></i></a>
                     <a href="https://github.com/Shamokh24" target="_blank"><i class="bx bxl-github"></i></a>
@@ -42,15 +51,17 @@
                
              </div>
 
+                 <!-- Profile image -->
              <div class="home-img">
                    <img src="https://i.pinimg.com/736x/38/77/13/38771358f07f6e036795dde2f1ada7e6.jpg" alt="">
              </div>
         </section>
 
+            <!-- Education timeline section -->
         <section class="education" id="education">
             <h2 class="heading">Education</h2>
             <div class="timeline-items">
-
+                    <!--High School Item-->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                         <div class="timeline-date">2021</div>
@@ -62,7 +73,7 @@
                     
                 </div>
 
-                
+                    <!--University Item-->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                         <div class="timeline-date">2022</div>
@@ -74,7 +85,7 @@
             
                 </div>
 
-                
+                    <!--Summer Traning Item-->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                         <div class="timeline-date">2025</div>
@@ -89,12 +100,14 @@
             </div>
         </section>
 
+            <!-- About Me section -->
         <section class="about-me" id="about-me">
             <h2 class="heading">About <span>Me</span></h2>
 
             <div class="about-me-container">
                 <div class="about-me-box">
                     <div class="about-me-info">
+                                <!-- Hobbies & Interst Box-->
                         <h4>HOBBIES & INTERESTS</h4>
                         <ul>
                             <li>Software development and problem-solving</li>
@@ -108,6 +121,7 @@
 
                 <div class="about-me-box">
                     <div class="about-me-info">
+                                <!-- Tecnical Skills Box-->
                         <h4>Technical Skills</h4>
                         <ul>
                            <li>Programming Languages: C, C++, Java, Python, Assembly</li>
@@ -123,6 +137,7 @@
                 
                 <div class="about-me-box">
                     <div class="about-me-info">
+                            <!-- Personal Information Box-->
                         <h4>Personal Information</h4>
                         <p>I’m Shamokh Khalaf Nasser Alodaib, a Computer Science student at Qassim University, graduating in 2026. 
                             I’m fluent in Arabic and English and passionate about technology, design, and creating user-friendly digital experiences.</p>
@@ -131,6 +146,7 @@
 
                 <div class="about-me-box">
                     <div class="about-me-info">
+                            <!-- Genral Skills Box-->
                         <h4>General Skills</h4>
                         <ul>
                         <li>Strong analytical and critical thinking</li>
@@ -146,18 +162,20 @@
             </div>
         </section>
 
+            <!-- Certificates section -->
         <section class="certificates" id="certificates">
             <div class="certificates-box">
                 <h2 class="heading">Certificates</h2>
 
                 <div class="wrapper">
+                        <!-- Certificate items -->
                     <div class="certificate-item">
                         <img src="https://github.com/Shamokh24/MyCV/tree/main/imgs/FX24KG5K21V0QP-ar-1731537979_page-0001.jpg" alt="">
                         <h2>Cloud Solutions Architecture in AWS</h2>
                         <p>"The AWS Cloud Solutions Architect path focuses on designing secure, scalable, and cost-effective cloud systems using Amazon Web Services. 
                             It prepares professionals to translate business needs into robust technical solutions while ensuring best practices for performance, security, and reliability."</p>
                     </div>
-
+                        <!-- Certificate items -->
                     <div class="certificate-item">
                         <h2>Still working on it ...</h2>
                     </div>
@@ -165,9 +183,11 @@
             </div>
         </section>
 
+            <!-- Contact form -->
         <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me</span></h2>
             <form action="">
+                    <!-- Input fields for contact form -->
                 <div class="input-group">
                     <div class="input-box">
                         <input type="text" placeholder="Full Name">
@@ -185,8 +205,9 @@
                 </div>
             </form>
         </section>
-
+            <!-- Footer section -->
         <footer class="footer">
+                <!-- Social links -->
             <div class="social">
                     <a href="https://www.linkedin.com/in/shamokh-al-odaib-327aaa268/" target="_blank"><i class='bx  bxl-linkedin'  ></i></a>
                     <a href="https://github.com/Shamokh24" target="_blank"><i class="bx bxl-github"></i></a>
@@ -194,6 +215,7 @@
                     <a href="https://t.me/Shmokh_k" target="_blank"><i class="bx bxl-telegram"></i></a>
                 </div>
 
+                <!-- Quick links -->
             <ul class="list">
                 
                 <li>
@@ -212,11 +234,13 @@
                     <a href="#certificates">Certificates</a>
                 </li>
             </ul>
+
+                <!-- Copyright -->
             <p class="copyright">
                 &copy; Shamokh Alodaib | All Rights Reserved
             </p>
         </footer>
-
+            <!-- Link to external JS file -->
         <script src="script.js"></script>
     </body>
 </html>
